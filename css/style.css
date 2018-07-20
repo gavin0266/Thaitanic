@@ -1,0 +1,207 @@
+@media all and (orientation: portrait) {
+	#wrapper {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-image: url("../img/portback.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+
+#logo {
+		position: absolute;
+		width: 45%;
+		top: 5%;
+		left: 60%;
+		z-index: 5;
+	}
+
+	#port {
+		visibility: visible;
+	}
+
+	#land {
+		visibility: hidden;
+	}
+	#logoBack {
+		position: absolute;
+		width: 100%;
+		height: 20%;
+		top: 7.5%;
+		z-index: 4;
+		background-color: rgba(0,0,0,0.5);
+	}
+	
+
+	.galleryImages img{
+	width: 27%;
+	padding: 0.5%;
+	background-color: white;
+}
+
+}
+
+@media all and (orientation: landscape) {
+	#wrapper {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-image: url("../img/back2.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+	#logo {
+		position: absolute;
+		width: 35%;
+		top: 7.5%;
+		left: 65%;
+		z-index: 5;
+	}
+
+	#port {
+		visibility: visible;
+	}
+
+	#land {
+		visibility: hidden;
+	}
+	#logoBack {
+		position: absolute;
+		width: 100%;
+		height: 20%;
+		top: 5%;
+		z-index: 4;
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	.galleryImages img{
+	width: 20%;
+	padding: 0.5%;
+	background-color: white;
+}
+}
+
+@font-face {
+    font-family: kust;
+    src: url(../fonts/kust.ttf);
+}
+
+@font-face {
+    font-family: aliquam;
+    src: url(../fonts/Aliquam.ttf);
+}
+
+h1 {
+
+	font-size: 4em;
+}
+
+
+h2 {
+	font-family: aliquam;
+	letter-spacing: 3px;
+	font-size: 2.0em;
+}
+
+h3 {
+
+	font-size: 1.5em;
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+
+}
+
+
+#navGroup {
+	position: relative;
+	margin-top: 30vh;
+	margin-right: 5%;
+	text-align: right;
+	z-index: 6;
+}
+
+.nav{
+	position: relative;
+	padding: 1%;
+	display: inline-block;
+	color: rgb(200, 200, 200);
+	-webkit-transition: background 0.1s linear;
+        -moz-transition: background 0.1s linear;
+        -ms-transition: background 0.1s linear;
+        -o-transition: background 0.1s linear;
+        transition: background 0.1s linear;
+
+}
+
+.nav a {
+	font-family: aliquam;
+	font-size: 1.5em;
+	color: rgb(200, 200, 200);
+	text-decoration: none;
+}
+
+.nav:hover, .nav.hovered {
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.nav.default {
+	background-color: rgba(41, 41, 41, 0.0);
+
+}
+
+.clear {
+	clear: both;
+}
+
+#leftDiv {
+    position: absolute;
+    top: 32%;
+    left: 0%;
+    width: 0;
+    bottom: 30%;
+    height: 65%;
+    z-index: 999;
+	opacity: 0.0;
+}
+
+.edgeDiv {
+
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.content {
+
+	background-color: transparent;
+	font-size: 1em;
+	width: 85%;
+	height: 85%;
+	position: absolute;
+	top: 7.5%;
+	left: 7.5%;
+	z-index: 6;
+	overflow-y: auto;
+
+}
+
+#logo img{
+
+	width: 100%;
+}
+
